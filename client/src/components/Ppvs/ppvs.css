@@ -1,0 +1,180 @@
+/* CSS STYLING FILE FOR COMPONENTS */
+
+
+#header{
+    height: 80px !important;
+    background-color: white;
+}
+ 
+.header_item_mobile{
+    padding: 20px;
+}
+
+  @media only screen and (min-width: 770px) {
+    .header_mobile{
+     display: none;
+     background-color: #2CB1BC;
+     width: 100%;
+     margin-top: 10px !important;
+    }
+    
+  }  
+
+.row-ppvs-TitleTab{
+    background-color: #252525;
+    color: white;
+    height: 70px;
+}
+
+
+
+.add-Player-Button{
+    width: 300px;
+    background-color: transparent !important;
+}
+
+
+
+
+
+.ppvs_container{
+    margin-top: 80px;
+}
+
+.ppv-Button-Container{
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+ .ppv-Button-Container:hover{
+    background-color: #bba800 !important;
+}  
+
+.ppv_list_img_container{
+height: 150px;
+ background-color: #484040bb;
+}
+
+.ppv_list_info_container{
+    height: 100px;
+     background-color: #222222fa;
+    }
+
+.ppv_list_image{
+height: 100%;
+}
+
+.ppv_list_box{
+    height: 300px;
+   width: 95%;
+}
+
+.ppv_list_info_name{
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+/* ------------ADD PPVS------------ */
+
+.add_ppvs_container{
+    margin-top: 80px;
+}
+
+
+.add_ppvs_show_container{
+    height: 100px;
+}
+
+#select_Show{
+    width: 1200px;
+}
+
+.add-ppv-container{
+    height: 100%;
+    background-color: #555555a8;
+  }
+
+#ppv_show_dropdown{
+    background-color: black;
+    width: 71.7%;
+    margin-top: 150px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.dropdowm {
+    width: 800px;
+}
+
+.ppv_show_selectShow{
+    color: white !important; 
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#select_show_matches{
+    display: none;
+}
+
+.select_show_deleteShow{
+    margin-right: -90px;
+    margin-left: 40px;
+}
+
+#modal1{
+    max-width: 1200px !important;
+    width: 85% !important;
+}
+
+#modalNewMatch{
+background-color: #53534C !important;
+height: 100vh;
+}
+
+.modal-title{
+    font-size: 26px;
+    color: white;
+}
+#ppv_match_dropdown{
+    background-color: black;
+    width: 75.7%;
+  
+    max-height: 400px;
+    overflow-y: auto;
+    margin-left: 0px;
+}
+
+#ppv_matchWrestlers_dropdown{
+    background-color: black;
+    width: 91.4%;
+    max-height: 210px;
+    overflow-y: auto;
+    margin-left: 14px;}
+
+#match_col_matchType{
+display: none;
+}
+
+#match_col_wrestlers_singles{
+    display: none;
+}
+
+.ppv_createMatch_wrestlersRow{
+    margin-top: -30px;
+}
+
+.selectMatch_wrestlerImage{
+    height: 298px;
+  
+    z-index: -1;
+     
+}
+
+.selectMatch_wrestlerBox{
+    height: 300px;
+    background-color: #252525;
+    width: 300px;
+    margin: 0 auto;
+}
+
